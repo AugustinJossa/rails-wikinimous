@@ -1,0 +1,44 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.margin-delete{
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+
+.title-edit{
+  font-size: 30px;
+  color: primay;
+}
+
+.navbar{
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1{
+  font-weight: 200;
+  font-size: 25px;
+}
+
+
+
+.flex-items{
+  display: flex;
+}
+
+.box {
+  border: solid;
+
+}

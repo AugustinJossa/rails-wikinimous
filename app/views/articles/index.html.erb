@@ -1,0 +1,18 @@
+
+<div class='container'>
+  <div class = 'row'>
+    <div class= 'col-xs-12 col-xm-8'>
+      <div class= 'box'>
+        <% @articles.each do |article| %>
+        <ul>
+          <li>
+            <%= link_to article.title,  article_path(article),  { :class=>"title-edit" } %>
+            <br>
+            <%= article.content %>
+          </li>
+        </ul>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
